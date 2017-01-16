@@ -1,0 +1,63 @@
+body {
+    background-color: #c3c1c1;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+
+td {
+    width: 100px;
+    border: 7px solid #000;
+}
+
+table {
+    width: 700px;
+    border: 1px solid #575555;
+    border-collapse: collapse;
+}
+
+tr {
+    height: 100px;
+}
+
+.border-top td {
+    border-top: 0;
+}
+
+.border-bottom td,
+.border-bottom .white,
+.border-bottom .yellow {
+    border-bottom: 0;
+}
+
+.border-left .left {
+    border-left: 0;
+}
+
+.border-right .right {
+    border-right: 0;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.yellow {
+    background-color: #ff0;
+}
+
+.blue {
+    background-color: #4c65a5;
+}
+
+.dark {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.red {
+    background-color: #ff2115;
+}
